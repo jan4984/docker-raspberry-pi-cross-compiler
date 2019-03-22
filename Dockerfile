@@ -17,7 +17,7 @@ RUN apt-get update \
 
 # Here is where we hardcode the toolchain decision.
 ENV HOST=arm-linux-gnueabihf \
-    TOOLCHAIN=gcc-linaro-arm-linux-gnueabihf-raspbian-x64 \
+    TOOLCHAIN=arm-rpi-4.9.3-linux-gnueabihf \
     RPXC_ROOT=/rpxc
 
 #    TOOLCHAIN=arm-rpi-4.9.3-linux-gnueabihf \
